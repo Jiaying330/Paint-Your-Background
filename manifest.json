@@ -1,0 +1,28 @@
+{
+	"name": "Paint Your Background",
+	"version": "1.0",
+	"description": "Change your background color!",
+	"permissions": [
+	"<all_urls>",
+	"tabs", "activeTab", "declarativeContent","storage"],
+	"background": {
+		"scripts":["background.js"],
+		"persistent": false
+	},
+	"icons":{ "128": "icon128.png",
+		"48": "icon48.png",
+		"32": "icon32.png",
+		"16": "icon16.png"	
+	},
+	
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon":{
+		"128": "icon128.png",
+		"48": "icon48.png",
+		"32": "icon32.png",
+		"16": "icon16.png"
+		}
+	},
+	"manifest_version": 2
+}
